@@ -142,7 +142,7 @@ public class MainActivity extends AppCompatActivity {
         mStats = findViewById(R.id.remainingQuestion);
         totalQuestions = findViewById(R.id.totalQuestion);
 
-        loadingView = findViewById(R.id.progress_layout);
+        loadingView = findViewById(R.id.progressBar);
     }
 
     private void showLoading() {
